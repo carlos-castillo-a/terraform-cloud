@@ -23,7 +23,7 @@ provider "aws" {
   secret_key    = var.AWS_SECRET_KEY
 
   default_tags {
-    tags {
+    tags = {
       Stakeholder = "admin01@castillo-a.com"
       IaC         = "terraform"
       Project     = var.project
