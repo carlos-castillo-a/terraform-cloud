@@ -14,7 +14,7 @@ variable "environment" {
 }
 
 variable "standard_tags" {
-    type = map
+    type = map(string)
     description = "List of tags that should be standard per resources"
 }
 
