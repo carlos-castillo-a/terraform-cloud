@@ -16,6 +16,12 @@ variable "environment" {
 variable "standard_tags" {
     type = map(string)
     description = "List of tags that should be standard per resources"
+    default = {
+        "Environment" = var.environment
+        "Project"     = var.project
+        "Stakeholder" = "admin01@castillo-a.com"
+        "IaC"         = "terraform"
+    }
 }
 
 # S3 Vars
@@ -23,18 +29,3 @@ variable "s3_acl" {
     type = string
     description = "ACL Policy for S3"
 }
-
-############
-/*
-# Global Vars
-project     = "aws0001"
-standard_tags = {
-  "Environment" = var.environment
-  "Project"     = var.project
-  "Stakeholder" = "admin01@castillo-a.com"
-  "Iac"         = "terraform"
-}
-
-# S3 Vars
-s3_acl = "private"
-*/
