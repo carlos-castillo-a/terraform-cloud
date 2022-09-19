@@ -14,7 +14,7 @@ variable "environment" {
 }
 
 variable "standard_tags" {
-    type = map(string)
+    type = map
     description = "List of tags that should be standard per resources"
     default = {
         "Environment" = var.environment
