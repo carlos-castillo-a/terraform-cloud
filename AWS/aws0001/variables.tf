@@ -25,7 +25,7 @@ variable "s3_acl" {
 }
 
 ############
-
+/*
 # Global Vars
 project     = "aws0001"
 standard_tags = {
@@ -37,3 +37,4 @@ standard_tags = {
 
 # S3 Vars
 s3_acl = "private"
+*/
