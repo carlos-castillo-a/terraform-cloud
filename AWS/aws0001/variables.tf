@@ -16,12 +16,6 @@ variable "environment" {
 variable "standard_tags" {
     type = map
     description = "List of tags that should be standard per resources"
-    default = {
-        "Environment" = var.environment
-        "Project"     = var.project
-        "Stakeholder" = "admin01@castillo-a.com"
-        "IaC"         = "terraform"
-    }
 }
 
 # S3 Vars
