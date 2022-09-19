@@ -22,4 +22,8 @@ provider "aws" {
   access_key    = var.AWS_ACCESS_KEY
   secret_key    = var.AWS_SECRET_KEY
   environment   = var.environment
+  default_tags {
+    Stakeholder = "admin01@castillo-a.com"
+    IaC         = "terraform"
+  }
 }

@@ -13,11 +13,6 @@ variable "environment" {
     description = "Environment variable"
 }
 
-variable "standard_tags" {
-    type = map(string)
-    description = "List of tags that should be standard per resources"
-}
-
 # S3 Vars
 variable "s3_acl" {
     type = string
