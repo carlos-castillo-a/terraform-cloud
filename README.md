@@ -2,7 +2,7 @@
 This repository will hold the contentsof .tf configuration files for different projects and cloud providers. The goal is to automate deployments using Terraform Cloud.
 
 ## AWS
-The following is a list of porjects connected to AWS:
+The following is a list of projects connected to AWS:
 - [aws0001](./AWS/aws0001/): Creating an S3 bucket
 
 ### Order of operations 
@@ -13,8 +13,9 @@ The following is a list of porjects connected to AWS:
     - Make sure to configure "Terraform Working Directory as the path to project (ex: `AWS/aws0000/`)
 4. Test Configuration in dev, once successful, merge changes to `main`
 
-**Workflow**
-Dev:
+
+**Workflow**  
+
 ![](./Attachments/ado-tf-aws-workflow.png)
 
 ## Azure
