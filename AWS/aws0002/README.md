@@ -1,2 +1,2 @@
-# Create S3 Bucket: aws0001
-This project will be to create an S3 bucket that blocks public access
+# Create EC2: aws0002
+This project will be to create an EC2 instance
