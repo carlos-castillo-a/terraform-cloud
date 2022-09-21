@@ -24,7 +24,7 @@ variable "s3_block_public_acls" {
     description = "Block public ACLs"
 }
 
-variable "s3_block_public_policy " {
+variable "s3_block_public_policy" {
     type = string
     description = "Block public ACLs plicy"
 }
