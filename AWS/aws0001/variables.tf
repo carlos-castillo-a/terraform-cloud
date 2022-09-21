@@ -1,4 +1,4 @@
-# Authentication
+# Authentication (use Terraform Cloud Variables)
 variable "AWS_ACCESS_KEY" {}
 variable "AWS_SECRET_KEY" {}
 
@@ -16,6 +16,11 @@ variable "environment" {
 variable "stakeholder" {
     type = string
     description = "Creator of resources"
+}
+
+variable "organization" {
+    type = string
+    description = "Terraform Cloud organization"
 }
 
 # S3 Vars

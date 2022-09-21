@@ -1,6 +1,5 @@
 # Project
 project                     = "aws0001"
-stakeholder                 = "admin01@castillo-a.com"
 
 # S3 vars
 s3_block_public_acls        = "true"
