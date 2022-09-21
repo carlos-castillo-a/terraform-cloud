@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "aws0001-bucket" {
   bucket = "${var.project}bucket01"
 }
 
-resource "aws_s3_bucket_public_access_block" "aws0001-publi-access" {
+resource "aws_s3_bucket_public_access_block" "aws0001-public-access" {
   bucket = aws_s3_bucket.aws0001-bucket.id
 
   block_public_acls       = var.s3_block_public_acls
