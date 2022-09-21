@@ -7,7 +7,7 @@ The following is a list of projects connected to AWS:
 
 ### Order of operations 
 1. Create `dev` Branch for project (ex: `aws0000-dev`)
-2. Create Terraform Cloud `dev` Workspace tied to branch (ex: `aws0001-dev`)
+2. Create Terraform Cloud `dev` Workspace tied to branch (ex: `aws0000-dev`)
     - Make sure to configure "Terraform Working Directory" as the path to project (ex: `AWS/aws0000/`)
 3. Create Terraform Cloud `prod` Workspace tied to `main` directory
     - Make sure to configure "Terraform Working Directory" as the path to project (ex: `AWS/aws0000/`)
