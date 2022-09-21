@@ -1,6 +1,6 @@
 # Bucket(s)
 resource "aws_s3_bucket" "aws0001-bucket" {
-  bucket = "${var.project}bucket"
+  bucket = "${var.project}-${var.environment}-bucket"
 }
 
 resource "aws_s3_bucket_public_access_block" "aws0001-public-access" {
