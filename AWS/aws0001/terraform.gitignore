@@ -2,11 +2,9 @@
 # password, private keys, and other secrets. These should not be part of version 
 # control as they are data points which are potentially sensitive and subject 
 # to change depending on the environment.
-AWS/**/*.*.tfvars
-Azure/**/*.*.tfvars
-GCP/**/*.*.tfvars
+*.tfvars
+*.*.tfvars
+**.tfvars
 
 # Local .terraform directories
-AWS/**/.terraform/*
-Azure/**/.terraform/*
-GCP/**/.terraform/*
+**/.terraform/*
