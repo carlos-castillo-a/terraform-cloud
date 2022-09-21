@@ -1,7 +1,7 @@
 # Configure Terraform Cloud & Required Providers
 terraform {
   cloud {
-    organization = "aws-castillo-a"
+    organization = var.organization
 
     workspaces {
       tags = [var.project]
