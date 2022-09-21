@@ -4,6 +4,7 @@ This repository will hold the contents of .tf configuration files for projects i
 ## AWS
 The following is a list of projects connected to AWS:
 - [aws0001](./AWS/aws0001/): Creating an S3 bucket
+- [aws0002](./AWS/aws0002/): Create EC2 Instance
 
 **Workflow**  
 
