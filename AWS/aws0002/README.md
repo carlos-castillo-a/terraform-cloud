@@ -9,5 +9,5 @@ flowchart LR;
     Repository -->|Push| Workspace
     Repository -->|Reference| Private-Module-Registry
     Private-Module-Registry -->|Download Module| Workspace
-    Workspace -->|Deploy| AWS
+    Workspace <-->|Deploy| AWS-Account
 ```
