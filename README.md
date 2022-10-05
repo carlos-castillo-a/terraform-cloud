@@ -10,7 +10,7 @@ The following is a list of projects connected to AWS:
 ### Modules
 Modules are primarily controlled and versioned via GitHub but also referenced using Teraform Cloud's _Private Module Registry_ feature. Below is a workflow of how modules are maintained and used:
 
-![](../../Attachments/modules_workflow.png)
+![](./Attachments/modules_workflow.png)
 
 
 The following is a list of available modules to reference using `source = app.terraform.io/aws-castillo-a/<MODULE NAME>`:
