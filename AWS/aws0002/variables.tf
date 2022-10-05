@@ -26,6 +26,11 @@ variable "organization" {
 variable "default_tags" {
   type        = map(string)
   description = "Default tags for resources"
+  default     = {
+    Stakeholder = local.stakeholder
+    IaC         = "terraform"
+    Project     = local.project
+  }
 }
 
 # Locals
