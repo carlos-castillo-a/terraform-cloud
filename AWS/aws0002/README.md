@@ -6,8 +6,8 @@ This diagram shows how the s3-module is maintained and referenced by Workspaces 
 
 ```mermaid
 flowchart LR;
-    Repository(.tf)--|Trigger Plan/Apply|-->Workspace;
-    Repository(.tf)--|Reference|-->[(Private Module Registry)];
-    Workspace--|Download Module|-->[(Private Module Registry)];
-    Workspace--|Deploy|-->AWS;
+    Repository(.tf) --|Push|--> Workspace;
+    Repository(.tf) --|Reference|--> [(Private Module Registry)];
+    Workspace --|Download Module|--> [(Private Module Registry)];
+    Workspace --|Deploy|--> AWS;
 ```
