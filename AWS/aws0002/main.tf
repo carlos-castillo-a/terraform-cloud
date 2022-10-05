@@ -4,7 +4,7 @@ terraform {
     organization = var.organization
 
     workspaces {
-      tags = [var.environment]
+      tags = [var.envrionment]
     }
   }
 
