@@ -4,4 +4,5 @@ module "s3_module" {
   project     = var.project
   environment = var.environment
   num         = 2
+  name_suffix = "test"
 }
