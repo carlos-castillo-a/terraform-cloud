@@ -5,5 +5,4 @@ module "s3_module" {
   environment = var.environment
   num         = 1
   name_suffix = "logging"
-  tags        = var.default_tags
 }
