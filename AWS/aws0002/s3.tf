@@ -6,5 +6,5 @@ module "s3-module" {
   project     = var.project
   environment = var.environment
   num         = 2
-  name_suffix = "final"
+  name_suffix = "test"
 }
