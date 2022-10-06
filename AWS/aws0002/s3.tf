@@ -6,4 +6,6 @@ module "s3-module" {
   environment = var.environment
   num         = 2
   name_suffix = "test"
+  
+  versioning  = false
 }
