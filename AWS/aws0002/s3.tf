@@ -7,5 +7,5 @@ module "s3-module" {
   num         = 2
   name_suffix = "test"
   
-  versioning  = false
+  versioning_enabled  = false
 }
