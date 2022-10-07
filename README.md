@@ -23,7 +23,8 @@ The following is a list of projects connected to AWS:
 - [aws0002](./AWS/aws0002/): Create S3 bucket via module
 
 ## Azure
-Azure projects are TBD.
+The following is a list of projects connected to Azure:
+- [az0001](./Azure/az0001/): Creating an App Service
 
 ## Google Cloud Platform
 GCP projects are TBD.
